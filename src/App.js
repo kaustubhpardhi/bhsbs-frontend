@@ -55,7 +55,12 @@ function App() {
               <Routes>
                 <Route
                   path="/"
-                  element={<BillingFormNoAuth setSideBar={setSideBar} />}
+                  element={
+                    <RequireAuth>
+                      {" "}
+                      <BillingForm />{" "}
+                    </RequireAuth>
+                  }
                 />
                 <Route
                   path="/billing"
