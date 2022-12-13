@@ -85,7 +85,7 @@ const theme = createTheme({
 });
 
 // axios
-axios.defaults.baseURL = "http://bhsbs-dev2.us-west-2.elasticbeanstalk.com";
+axios.defaults.baseURL = "https://bhsbs-dev2.us-west-2.elasticbeanstalk.com";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
