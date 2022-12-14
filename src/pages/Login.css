@@ -7,3 +7,8 @@
   margin-bottom: 30px;
   width: 150px;
 }
+@media (max-width: 800px) {
+  .loginImg {
+    margin-left: 130px;
+  }
+}
