@@ -106,7 +106,7 @@ const BillingForm = () => {
 
   // effects
   useEffect(() => {
-    document.title = "Billing Software by CFT Labs";
+    document.title = "BHSBS Billing";
   }, []);
   // last pawti
   useEffect(() => {
