@@ -1,5 +1,5 @@
 .main-p {
-  line-height: 3px;
+  line-height: 8px;
 }
 
 .donation-receipt {
@@ -86,4 +86,9 @@ h3 {
 }
 .about {
   margin-top: 20px;
+}
+@media (max-width: 500px) {
+  .main-p {
+    line-height: 0px;
+  }
 }
