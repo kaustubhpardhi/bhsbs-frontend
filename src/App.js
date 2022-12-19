@@ -56,10 +56,11 @@ function App() {
                 <Route
                   path="/"
                   element={
-                    <RequireAuth>
-                      {" "}
-                      <BillingForm />{" "}
-                    </RequireAuth>
+                    // <RequireAuth>
+                    //   {" "}
+                    //   <BillingForm />{" "}
+                    // </RequireAuth>
+                    <BillingFormNoAuth />
                   }
                 />
                 <Route

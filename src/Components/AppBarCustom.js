@@ -5,7 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { styled } from "@mui/material/styles";
 import { IconButton } from "@mui/material";
 import BOB from "../images/bom.png";
-import logo from "../images/mandir.webp";
+import logo from "../images/bhsbs.png";
 import "./AppBarCustom.css";
 import i18next, { t } from "i18next";
 import { Button } from "@mui/material";
