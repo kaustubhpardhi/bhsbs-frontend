@@ -510,6 +510,7 @@ import moment from "moment";
 import CryptoJS from "crypto-js";
 import DatePicker from "react-datepicker";
 import { useTranslation } from "react-i18next";
+import "./BillingFormNoAuth.css";
 
 function decrypt(text, skey) {
   console.log({ text, skey });
@@ -813,7 +814,7 @@ const BillingFormNoAuth = () => {
   }
 
   return (
-    <div>
+    <div className="billingForm">
       <Box mb={2}>
         <Typography
           variant="h1"
