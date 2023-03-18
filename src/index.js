@@ -86,9 +86,9 @@ const theme = createTheme({
 
 // axios
 //production
-axios.defaults.baseURL = "https://fitechs.in/";
+axios.defaults.baseURL = "https://bhsbs.onrender.com";
 //localhost
-// axios.defaults.baseURL = "http://localhost:8081/";
+//axios.defaults.baseURL = "http://localhost:8081/";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
